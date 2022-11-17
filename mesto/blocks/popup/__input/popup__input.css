@@ -1,0 +1,26 @@
+.popup__input {
+  margin-bottom: 30px;
+  padding-bottom: 13px;
+  border: none;
+  border-bottom: 1px solid rgb(0,0,0);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(0,0,0);
+}
+
+.popup__input_type_profession {
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .popup__input_type_name {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .popup__input_type_profession {
+    margin-bottom: 45px;
+  }
+}
